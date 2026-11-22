@@ -1,0 +1,26 @@
+MODEL PATH: C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet1\models\best_model.h5
+FILE EXISTS: True
+MODEL PATH: C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet1\models\best_model.h5
+FILE EXISTS: True
+MODEL PATH: C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet1\models\best_model.h5
+FILE EXISTS: True
+[TWILIO] SID=AC3abdb063... FROM=+12524836734 TO=+21695863334
+[SIM] DRY files: 50
+[SIM] CUT files: 50
+✅ Projet 1 (Wheat CNN) chargé.
+[DEBUG] pair_features dtype=float64 shape=(720, 160) val[0,0]=0.0
+✅ Projet 2 (Durum Pipeline) chargé.
+✅ Projet 3 (G×E) chargé — modèle : GRU.
+✅ Projet 4 (Digital Twin) chargé.
+[DB] Database initialized.
+✅ Projet 5 (CropDNA) chargé.
+✅ Projet 9 (ODM/DNABERT) chargé.
+✅ Projet 6 (CRISPR) chargé.
+✅ Projet 7 (Pest Image) chargé sur cpu.
+✅ Projet 8 (Insect Sound) chargé sur cpu.
+
+[SUCCESS] Tous les projets sont demarres -> http://127.0.0.1:8000/docs
+
+INFO:     127.0.0.1:49856 - "GET /health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49857 - "GET /writing/health HTTP/1.1" 200 OK
+INFO:     127.0.0.1:49858 - "GET /growth/health HTTP/1.1" 200 OK

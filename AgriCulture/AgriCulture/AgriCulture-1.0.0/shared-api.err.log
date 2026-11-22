@@ -1,0 +1,30 @@
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1777913619.694732   19956 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1777913623.826327   19956 port.cc:153] oneDNN custom operations are on. You may see slightly different numerical results due to floating-point round-off errors from different computation orders. To turn them off, set the environment variable `TF_ENABLE_ONEDNN_OPTS=0`.
+INFO:     Started server process [30140]
+INFO:     Waiting for application startup.
+I0000 00:00:1777913628.323606   19956 cpu_feature_guard.cc:227] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: SSE3 SSE4.1 SSE4.2 AVX AVX2 AVX_VNNI FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+WARNING:tensorflow:TensorFlow GPU support is not available on native Windows for TensorFlow >= 2.11. Even if CUDA/cuDNN are installed, GPU will not be used. Please use WSL2 or the TensorFlow-DirectML plugin.
+WARNING:absl:Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.
+INFO:     Application startup complete.
+INFO:     Uvicorn running on http://127.0.0.1:8000 (Press CTRL+C to quit)
+2026-05-04 17:55:57,531 | INFO | DatasetBuilder | Using random seed=42
+INFO:DatasetBuilder:Using random seed=42
+2026-05-04 17:55:57,534 | INFO | UniprotFetcher | Fetching 1 proteins for keyword 'insulin'
+INFO:UniprotFetcher:Fetching 1 proteins for keyword 'insulin'
+2026-05-04 17:56:01,160 | INFO | UniprotFetcher | Fetched 1 proteins
+INFO:UniprotFetcher:Fetched 1 proteins
+2026-05-04 17:56:02,034 | INFO | DatasetBuilder | Rows generated for Arabidopsis thaliana: 1
+INFO:DatasetBuilder:Rows generated for Arabidopsis thaliana: 1
+2026-05-04 17:56:02,037 | INFO | DatasetBuilder | Rows generated for Oryza sativa: 1
+INFO:DatasetBuilder:Rows generated for Oryza sativa: 1
+2026-05-04 17:56:02,039 | INFO | DatasetBuilder | Rows generated for Zea mays: 1
+INFO:DatasetBuilder:Rows generated for Zea mays: 1
+2026-05-04 17:56:02,040 | INFO | DatasetBuilder | Rows generated for Phoenix dactylifera: 1
+INFO:DatasetBuilder:Rows generated for Phoenix dactylifera: 1
+2026-05-04 17:56:02,040 | INFO | DatasetBuilder | Proteins skipped: 0
+INFO:DatasetBuilder:Proteins skipped: 0
+2026-05-04 17:56:02,059 | INFO | DatasetBuilder | Saved dataset to C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet_6\Dna_Project_groupe\Dna_Project_Insuline\outputs\datasets\dataset_insulin.csv and C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet_6\Dna_Project_groupe\Dna_Project_Insuline\outputs\datasets\dataset_insulin.json
+INFO:DatasetBuilder:Saved dataset to C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet_6\Dna_Project_groupe\Dna_Project_Insuline\outputs\datasets\dataset_insulin.csv and C:\Users\moall\OneDrive\Desktop\vscode\AgriCulture\AgriCulture-1.0.0\intglalasouhaboub2\intglalasouhaboub2\projet_6\Dna_Project_groupe\Dna_Project_Insuline\outputs\datasets\dataset_insulin.json
