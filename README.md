@@ -317,6 +317,4 @@ AgroNexus/
 
 ## 👥 Team, license, acknowledgements
 
-- **Team:** [names, school]
-- **License:** [placeholder]
-- **Acknowledgements:** public Tunisian press sources; academic supervisors; IRA Medenine collaboration [confirm wording]
+- **Team:** alorAI
